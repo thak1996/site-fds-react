@@ -29,8 +29,8 @@ export function contactUserHtml(data: Contact): string {
     <div class="contact-info">
       <h4 style="color:#16a085;margin-top:0;">Informações de Contato:</h4>
       <p>
-        <strong>Telefone:</strong> (11) 2358-9716<br>
-        <strong>E-mail:</strong> francisco@fdslogistica.com.br<br>
+        <strong>Telefone:</strong> (11) 9 8217-0520<br>
+        <strong>E-mail:</strong> contato@fdslogistica.com.br<br>
         <strong>Endereço:</strong> Rua Palhoça, 398 - Parque Industrial Cumbica - Guarulhos/SP
       </p>
     </div>
