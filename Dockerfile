@@ -8,7 +8,7 @@ FROM node:${NODE_VERSION} AS deps
 WORKDIR /app
 RUN apk add --no-cache libc6-compat
 COPY package.json package-lock.json ./
-RUN npm ci
+RUN NODE_ENV=development npm ci
 
 # 2) development — development environment with hot reload.
 FROM node:${NODE_VERSION} AS development
