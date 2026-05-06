@@ -1,0 +1,248 @@
+{
+  "hero_title": "Your best choice in moving and logistics",
+  "hero_subtitle": "Residential and commercial moves, transport of sensitive equipment and storage with quality and safety.",
+  "quote_button": "Request a quote",
+  "value_proposition": "Your best choice for residential, commercial moving and specialized transport.",
+  "cards": {
+    "company": {
+      "title": "COMPANY",
+      "text": "FDS works in the field of specialized transport for commercial and residential moves, transport of sensitive goods and works of art, storage and logistics.",
+      "button": "Learn more"
+    },
+    "services": {
+      "title": "SERVICES",
+      "text": "Commercial and residential moves, transport of sensitive goods and works of art, furniture disassembly and assembly, internal relocations, storage, logistics and distribution.",
+      "button": "See more"
+    },
+    "contact": {
+      "title": "CONTACT",
+      "text": "If you have any questions or would like to request more information about our services, please contact us.",
+      "button": "Get in touch"
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "company": "The Company",
+    "services": "Services",
+    "quote": "Quote",
+    "contact": "Contact"
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  },
+  "modals": {
+    "error": {
+      "title": "Error!",
+      "default_message": "An unexpected error occurred."
+    },
+    "success": {
+      "title": "Success!",
+      "default_message": "Operation completed successfully!"
+    },
+    "close": "OK"
+  },
+  "seo": {
+    "title": "FDS Logistics and Outsourcing - Residential and Commercial Moving",
+    "description": "FDS Logistics: specialist in residential and commercial moves, transport of sensitive equipment, storage and labor outsourcing. Serving throughout the national territory.",
+    "og_description": "Specialist in residential and commercial moves with quality and safety"
+  },
+  "company": {
+    "title": "The Company",
+    "p1": "Starting its operations in 2005, FDS Logística was born with residential and commercial moves as its main activities. A company that aims for TOTAL QUALITY, with great dedication in service, information, and negotiations.",
+    "p2": "FDS Logística is a company specialized in providing logistics services and labor outsourcing, with its main activities being the administration and operation of storage, transport management, and/or distribution of any type of goods or products, outsourcing of specialized labor in the areas of conservation and cleaning, concierge, gardening, among others that can assist in the operation of our clients.",
+    "p3": "Services are dimensioned and adapted to the needs of our clients, considering costs, deadlines, resources, quality, and strategic issues. The company operates throughout the national territory.",
+    "p4": "For this, it has the knowledge and experience necessary for the execution and implementation of integrated logistics projects. It brings together people with experience to provide the best service to our clients.",
+    "p5": "FDS Logística seeks to interpret the needs and wishes of its clients, providing the most appropriate form of service to their requirements. With the partnership of FDS professionals, our clients will have access to what is most modern, efficient, and economical when they need the services of a carrier for residential or commercial moves."
+  },
+  "services_page": {
+    "title": "Services",
+    "commercial": {
+      "title": "Commercial Moving:",
+      "text": "All corporate moving processes are managed in all their phases by specialized coordinators. Coding and identification processes for layouts and packaging for transport are fully inventoried and monitored. In this way, we guarantee a smooth transition without disruption to the areas and departments on the move."
+    },
+    "residential": {
+      "title": "Residential Moving:",
+      "text": "We perform local, intercity, and interstate door-to-door moves throughout the national territory. We use the best disposable materials to pack your belongings (triplex cardboard boxes, silk papers, Kraft paper, corrugated cardboard for furniture packaging, and special blankets for cardboard clothes among others). We disassemble and assemble all types of furniture. We inventory all items of the move, giving more safety to our clients."
+    },
+    "sensitive": {
+      "title": "Sensitive Transport:",
+      "text": "We use qualified and trained professionals for handling sensitive equipment, packing, removing, and transporting within the regulations of our clients, ensuring the quality of the equipment."
+    },
+    "art": {
+      "title": "Artwork Transport:",
+      "text": "We perform special packaging services following the standards required by our clients and use technical reports to ensure the quality of our packaging. Transports are carried out in climate-controlled vehicles equipped with air suspension."
+    },
+    "assembly": {
+      "title": "Furniture Disassembly and Assembly:",
+      "text": "Trained and specialized labor that follows manufacturers' recommendations."
+    },
+    "internal": {
+      "title": "Internal Relocations:",
+      "text": "Specialized team in layout implementation coordinated by specialized professionals, meeting the requirements and expectations of architects and managers involved in the process, speeding up with safety, punctuality, and organization in the implementation."
+    },
+    "storage": {
+      "title": "Storage:",
+      "text": "We offer a new storage philosophy, aggregated to the physical or structural changes of a company. We make a comparative analysis of existing furniture, storing its surplus in our warehouses, with total classification and online control by the client. We have a WMS system (Warehouse Management System), for the management of any and all items to be stored, issuing management reports easily accessible to the client."
+    },
+    "logistics": {
+      "title": "Logistics and Distribution:",
+      "text": "We make available small, medium, and large vehicle fleets equipped with satellite trackers, risk managers, and insurance policies ACF (Art. Seguro), in large centers and support points for application and preservation operation."
+    },
+    "outsourcing": {
+      "title": "Labor Outsourcing:",
+      "text": "We are a company specialized in providing labor in several segments, such as cleaning, concierge, gardening, pantry, reception, among others. Our employees are specialized, being frequently trained to better serve our clients. One of the main advantages in labor outsourcing is that our clients can focus their efforts on the core activities of the company, leaving to us all the labor needed for support."
+    }
+  },
+  "contact_page": {
+    "title": "Contact",
+    "subtitle": "To get in touch, fill out the form below or send your message to the email: <strong>contato@fdslogistica.com.br</strong>",
+    "form_title": "Contact details",
+    "fields": {
+      "name": "Name",
+      "email": "E-mail",
+      "phone": "Phone",
+      "subject": "Subject",
+      "message": "Message",
+      "phone_placeholder": "(11) 91234-5678",
+      "subject_placeholder": "Message subject",
+      "message_placeholder": "Describe your question, request or comment..."
+    },
+    "submit": "Send Message",
+    "info": {
+      "phone_label": "📞 Phone",
+      "email_label": "📧 E-mail",
+      "address_label": "📍 Address",
+      "hours_label": "🕒 Opening Hours",
+      "location_label": "📍 Location",
+      "hours_line1": "Monday to Friday: 8am to 6pm",
+      "hours_line2": "Saturday: 8am to 12pm"
+    },
+    "success": {
+      "title": "Message Sent Successfully!",
+      "message": "Your message has been received successfully. Our team will get in touch soon.",
+      "details_heading": "Next steps:",
+      "details_l1": "Our team will analyze your message",
+      "details_l2": "We will contact you by phone or email",
+      "details_l3": "We will provide all requested information"
+    },
+    "error": {
+      "title": "Error Sending Message",
+      "message": "An error occurred while sending your message. Please try again or contact us directly.",
+      "details_heading": "What you can do:",
+      "details_l1": "Try sending the message again",
+      "details_l2": "Check if all fields are filled in",
+      "details_l3": "Contact: francisco@fdslogistica.com.br"
+    },
+    "validation": {
+      "name": "The name is required.",
+      "email_required": "The e-mail is required.",
+      "email_invalid": "The e-mail must have a valid format.",
+      "phone": "The phone number is required.",
+      "subject": "The subject is required.",
+      "message": "The message is required."
+    },
+    "mailto_subject": "Information Request - FDS Logistics",
+    "mailto_body": "Hello,\n\nI would like to request more information about FDS Logistics services.\n\nBest regards,",
+    "whatsapp_message": "Hello, I would like to request information about FDS Logistics services."
+  },
+  "quote_page": {
+    "title": "Quote",
+    "sections": {
+      "contact": "Contact details",
+      "origin": "Origin location",
+      "destination": "Delivery location",
+      "observations": "Observations"
+    },
+    "fields": {
+      "type": "Type",
+      "residential": "Residential",
+      "commercial": "Commercial",
+      "name": "Name",
+      "res_phone": "Residential phone",
+      "com_phone": "Commercial phone",
+      "mob_phone": "Mobile phone",
+      "email": "E-mail",
+      "zipcode": "ZIP Code",
+      "street": "Street",
+      "number": "Number",
+      "district": "District",
+      "city": "City",
+      "state": "State",
+      "property_type": "Property type",
+      "house": "House",
+      "apartment": "Apartment",
+      "elevator": "Elevator",
+      "floor": "Floor",
+      "yes": "Yes",
+      "no": "No",
+      "observations": "Observations",
+      "phone_placeholder": "(11) 91234-5678",
+      "zipcode_placeholder": "00000-000",
+      "zipcode_loading": "Searching for address...",
+      "zipcode_error": "ZIP Code not found",
+      "street_placeholder": "Will be automatically filled with the ZIP Code",
+      "number_placeholder": "Ex: 123, 456A",
+      "floor_placeholder": "Ex: 1st, 2nd, Ground floor",
+      "observations_placeholder": "Describe details about the move, special furniture, etc."
+    },
+    "submit": "Send Quote",
+    "success": {
+      "title": "Quote Sent Successfully!",
+      "message": "Your request has been received. Our team will get in touch soon to provide all the information about your move.",
+      "details_heading": "Next steps:",
+      "details_l1": "Our team will analyze your request",
+      "details_l2": "We will contact you by phone or email",
+      "details_l3": "We will send a personalized proposal"
+    },
+    "error": {
+      "title": "Error Sending Quote",
+      "message": "An error occurred while sending your request. Please try again or contact us directly.",
+      "details_heading": "What you can do:",
+      "details_l1": "Try sending the quote again",
+      "details_l2": "Check if all fields are filled in",
+      "details_l3": "Contact: contato@fdslogistica.com.br"
+    },
+    "validation": {
+      "type": "The move type is required.",
+      "name": "The name is required.",
+      "email_required": "The e-mail is required.",
+      "email_invalid": "The e-mail must have a valid format.",
+      "mobile_phone": "The mobile phone is required.",
+      "origin_zipcode_required": "The origin ZIP Code is required.",
+      "origin_zipcode_regex": "The origin ZIP Code must have the format 00000-000.",
+      "origin_street": "The origin street is required.",
+      "origin_district": "The origin district is required.",
+      "origin_city": "The origin city is required.",
+      "origin_state": "The origin state is required.",
+      "origin_type": "The origin property type is required.",
+      "origin_elevator": "Inform if there is an elevator at the origin when it is an apartment.",
+      "destination_zipcode_required": "The destination ZIP Code is required.",
+      "destination_zipcode_regex": "The destination ZIP Code must have the format 00000-000.",
+      "destination_street": "The destination street is required.",
+      "destination_district": "The destination district is required.",
+      "destination_city": "The destination city is required.",
+      "destination_state": "The destination state is required.",
+      "destination_type": "The destination property type is required.",
+      "destination_elevator": "Inform if there is an elevator at the destination when it is an apartment."
+    }
+  },
+  "schema": {
+    "description": "Company specialized in residential and commercial moves, transport of sensitive equipment and labor outsourcing",
+    "area_served": "Brazil",
+    "services": [
+      "Residential Moving",
+      "Commercial Moving",
+      "Equipment Transport",
+      "Storage",
+      "Outsourcing"
+    ]
+  },
+  "no_access": {
+    "page_title": "Access Restricted",
+    "heading": "Access Blocked",
+    "message": "Your account does not have permission to access the admin panel or has been disabled.",
+    "support_text": "Please contact",
+    "support_link": "support",
+    "logout_button": "Logout"
+  }
+}

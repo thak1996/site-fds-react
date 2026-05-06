@@ -1,0 +1,248 @@
+{
+  "hero_title": "A sua melhor opção em mudanças e transportes",
+  "hero_subtitle": "Mudanças residenciais, comerciais, transporte de equipamentos sensíveis e armazenagem com qualidade e segurança.",
+  "quote_button": "Solicite um orçamento",
+  "value_proposition": "A sua melhor opção em mudança residencial, comercial e transporte especializado.",
+  "cards": {
+    "company": {
+      "title": "EMPRESA",
+      "text": "A FDS trabalha no ramo de transportes especializados de mudanças comerciais, residenciais, transportes de sensíveis e de obras de artes, armazenagem e logística.",
+      "button": "Conheça"
+    },
+    "services": {
+      "title": "SERVIÇOS",
+      "text": "Mudanças comerciais e residenciais, transportes de sensíveis e obras de artes, desmontagem e montagem de mobiliários, remanejamentos internos, armazenagem, logística e distribuição.",
+      "button": "Veja mais"
+    },
+    "contact": {
+      "title": "CONTATO",
+      "text": "Caso tenha alguma dúvida ou queira solicitar mais informações sobre nossos serviços, entre em contato conosco.",
+      "button": "Entre em contato"
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "company": "A Empresa",
+    "services": "Serviços",
+    "quote": "Orçamento",
+    "contact": "Contato"
+  },
+  "footer": {
+    "rights": "Todos os direitos reservados."
+  },
+  "modals": {
+    "error": {
+      "title": "Erro!",
+      "default_message": "Ocorreu um erro inesperado."
+    },
+    "success": {
+      "title": "Sucesso!",
+      "default_message": "Operação realizada com sucesso!"
+    },
+    "close": "OK"
+  },
+  "seo": {
+    "title": "FDS Logística e Terceirização - Mudanças Residenciais e Comerciais",
+    "description": "FDS Logística: especialista em mudanças residenciais e comerciais, transporte de equipamentos sensíveis, armazenagem e terceirização de mão de obra. Atendimento em todo território nacional.",
+    "og_description": "Especialista em mudanças residenciais e comerciais com qualidade e segurança"
+  },
+  "company": {
+    "title": "A Empresa",
+    "p1": "Iniciando suas operações em 2005 a FDS Logística nasceu tendo como principais atividades mudanças residenciais e comerciais. Empresa que tem como meta a QUALIDADE TOTAL, com enorme dedicação no atendimento, informações e negociações.",
+    "p2": "FDS Logística é uma empresa especializada na prestação de serviços de logística e terceirização de mão de obra, tendo como principais atividades a administração e operacionalização da armazenagem, gerenciamento do transporte e/ou distribuição de qualquer tipo de bens ou produtos, terceirização de mão de obra especializada nas áreas de conservação e limpeza, portaria, jardinagem, entre outras que possam auxiliar a operacionalização de nossos clientes.",
+    "p3": "Os serviços são dimensionados e adaptados às necessidades dos nossos clientes, considerando custos, prazos, recursos, qualidade e questões estratégicas. A empresa atua em todo território nacional.",
+    "p4": "Para isso tem o conhecimento e a experiência necessária para a execução e implementação de projetos de logística integrada. Reúne pessoas com experiência para prestar o melhor serviço aos nossos clientes.",
+    "p5": "A FDS Logística busca interpretar as necessidades e vontades de seus clientes, dando a forma de atendimento mais apropriada às suas exigências. Com a parceria dos profissionais da FDS nossos clientes terão acesso ao que há de mais moderno, eficiente e econômico na hora em que necessitar dos serviços de uma transportadora para mudanças residenciais ou mudanças comerciais."
+  },
+  "services_page": {
+    "title": "Serviços",
+    "commercial": {
+      "title": "Mudanças Comerciais:",
+      "text": "Todos os processos de mudanças corporativas são gerenciados em todas as suas fases por coordenadores especializados. Os processos de codificação e de identificação dos layouts e das embalagens para o transporte são totalmente inventariados e monitorados. Desta forma garantimos uma transição suave e sem transtornos às áreas e departamentos em movimento."
+    },
+    "residential": {
+      "title": "Mudanças Residenciais:",
+      "text": "Realizamos mudanças locais, intermunicipais e interestaduais porta a porta para todo o território nacional. Utilizamos os melhores materiais descartáveis para acondicionar seus pertences (caixas de papelão triplex, papéis de seda, papel Kraft, papelão ondulado para as embalagens do mobiliário e mantas especiais para roupas de papelão entre outros). Desmontamos e montamos todo tipo de mobiliário. Inventariamos todos os itens da mudança dando mais segurança aos nossos clientes."
+    },
+    "sensitive": {
+      "title": "Transportes de sensíveis:",
+      "text": "Utilizamos profissionais qualificados e treinados para o manuseio de equipamentos sensíveis embalando, removendo e transportando dentro das normativas dos nossos clientes assegurando a qualidade dos equipamentos."
+    },
+    "art": {
+      "title": "Transportes de Obras de Artes:",
+      "text": "Realizamos serviços de embalagens especiais seguindo as normas exigidas por nossos clientes e utilizamos laudos técnicos para assegurar a qualidade de nossas embalagens. Os transportes são realizados em veículos climatizados e equipados com suspensão à ar."
+    },
+    "assembly": {
+      "title": "Desmontagem e Montagem de Mobiliários:",
+      "text": "Mão de obra treinada e especializada que seguem as recomendações dos fabricantes."
+    },
+    "internal": {
+      "title": "Remanejamentos Internos:",
+      "text": "Equipe especializada em emplastação de layout coordenadas por profissional especializado, atendendo as exigências e expectativas dos arquitetos e gerenciadores envolvidos no processo agilizando com segurança, pontualidade e organização na implantação."
+    },
+    "storage": {
+      "title": "Armazenagem:",
+      "text": "Oferecemos uma nova filosofia de armazenagem, agregada às mudanças físicas ou estruturais de uma empresa. Fazemos uma análise comparativa do mobiliário existente, armazenando seu excedente em nossos depósitos, com total classificação e controle on-line pelo cliente. Possuímos sistema WMS (Warehouse Management System), para o gerenciamento de todo e qualquer item a ser armazenado emitindo relatórios gerenciais de fácil acesso ao cliente."
+    },
+    "logistics": {
+      "title": "Logística e Distribuição:",
+      "text": "Colocamos a disposição frotas de veículos de pequeno, médio e grande porte dotados de rastreadores via satélite, gerenciadores de risco e aplices de seguro ACF (Art. Seguro), em grandes centros e pontos de apoio para operação de aplicação e preservação."
+    },
+    "outsourcing": {
+      "title": "Terceirização de Mão de Obra:",
+      "text": "Somos uma empresa especializada no fornecimento de mão de obra em diversos segmentos, tais como limpeza, portaria, jardinagem, copa, recepção, entre outros. Nossos funcionários são especializados, sendo treinados com frequência para melhor atender nossos clientes. Uma das principais vantagens na terceirização de mão de obra é que nossos clientes conseguem focar seus esforços nas atividades fim da empresa, deixando a nosso cargo, toda mão de obra necessária para dar suporte."
+    }
+  },
+  "contact_page": {
+    "title": "Contato",
+    "subtitle": "Para entrar em contato, preencha o formulário abaixo ou envie sua mensagem para o email: <strong>contato@fdslogistica.com.br</strong>",
+    "form_title": "Dados para contato",
+    "fields": {
+      "name": "Nome",
+      "email": "E-mail",
+      "phone": "Telefone",
+      "subject": "Assunto",
+      "message": "Mensagem",
+      "phone_placeholder": "(11) 91234-5678",
+      "subject_placeholder": "Assunto da mensagem",
+      "message_placeholder": "Descreva sua dúvida, solicitação ou comentário..."
+    },
+    "submit": "Enviar Mensagem",
+    "info": {
+      "phone_label": "📞 Telefone",
+      "email_label": "📧 E-mail",
+      "address_label": "📍 Endereço",
+      "hours_label": "🕒 Horário de Atendimento",
+      "location_label": "📍 Localização",
+      "hours_line1": "Segunda a Sexta: 8h às 18h",
+      "hours_line2": "Sábado: 8h às 12h"
+    },
+    "success": {
+      "title": "Mensagem Enviada com Sucesso!",
+      "message": "Sua mensagem foi recebida com sucesso. Nossa equipe entrará em contato em breve.",
+      "details_heading": "Próximos passos:",
+      "details_l1": "Nossa equipe analisará sua mensagem",
+      "details_l2": "Entraremos em contato por telefone ou e-mail",
+      "details_l3": "Forneceremos todas as informações solicitadas"
+    },
+    "error": {
+      "title": "Erro no Envio da Mensagem",
+      "message": "Ocorreu um erro ao enviar sua mensagem. Por favor, tente novamente ou entre em contato conosco diretamente.",
+      "details_heading": "O que você pode fazer:",
+      "details_l1": "Tente enviar a mensagem novamente",
+      "details_l2": "Verifique se todos os campos estão preenchidos",
+      "details_l3": "Entre em contato: francisco@fdslogistica.com.br"
+    },
+    "validation": {
+      "name": "O nome é obrigatório.",
+      "email_required": "O e-mail é obrigatório.",
+      "email_invalid": "O e-mail deve ter um formato válido.",
+      "phone": "O telefone é obrigatório.",
+      "subject": "O assunto é obrigatório.",
+      "message": "A mensagem é obrigatória."
+    },
+    "mailto_subject": "Solicitação de Informações - FDS Logística",
+    "mailto_body": "Olá,\n\nGostaria de solicitar mais informações sobre os serviços da FDS Logística.\n\nAtenciosamente,",
+    "whatsapp_message": "Olá, gostaria de solicitar informações sobre os serviços da FDS Logística."
+  },
+  "quote_page": {
+    "title": "Orçamento",
+    "sections": {
+      "contact": "Dados para contato",
+      "origin": "Local de origem",
+      "destination": "Local de entrega",
+      "observations": "Observações"
+    },
+    "fields": {
+      "type": "Tipo",
+      "residential": "Residencial",
+      "commercial": "Comercial",
+      "name": "Nome",
+      "res_phone": "Telefone residencial",
+      "com_phone": "Telefone comercial",
+      "mob_phone": "Telefone celular",
+      "email": "E-mail",
+      "zipcode": "CEP",
+      "street": "Rua",
+      "number": "Número",
+      "district": "Bairro",
+      "city": "Cidade",
+      "state": "Estado",
+      "property_type": "Tipo de imóvel",
+      "house": "Casa",
+      "apartment": "Apartamento",
+      "elevator": "Elevador",
+      "floor": "Andar",
+      "yes": "Sim",
+      "no": "Não",
+      "observations": "Observações",
+      "phone_placeholder": "(11) 91234-5678",
+      "zipcode_placeholder": "00000-000",
+      "zipcode_loading": "Buscando endereço...",
+      "zipcode_error": "CEP não encontrado",
+      "street_placeholder": "Será preenchido automaticamente com o CEP",
+      "number_placeholder": "Ex: 123, 456A",
+      "floor_placeholder": "Ex: 1º, 2º, Térreo",
+      "observations_placeholder": "Descreva detalhes sobre a mudança, móveis especiais, etc."
+    },
+    "submit": "Enviar Orçamento",
+    "success": {
+      "title": "Orçamento Enviado com Sucesso!",
+      "message": "Sua solicitação foi recebida. Nossa equipe entrará em contato em breve para fornecer todas as informações sobre sua mudança.",
+      "details_heading": "Próximos passos:",
+      "details_l1": "Nossa equipe analisará sua solicitação",
+      "details_l2": "Entraremos em contato por telefone ou e-mail",
+      "details_l3": "Enviaremos uma proposta personalizada"
+    },
+    "error": {
+      "title": "Erro no Envio do Orçamento",
+      "message": "Ocorreu um erro ao enviar sua solicitação. Por favor, tente novamente ou entre em contato conosco diretamente.",
+      "details_heading": "O que você pode fazer:",
+      "details_l1": "Tente enviar o orçamento novamente",
+      "details_l2": "Verifique se todos os campos estão preenchidos",
+      "details_l3": "Entre em contato: contato@fdslogistica.com.br"
+    },
+    "validation": {
+      "type": "O tipo de mudança é obrigatório.",
+      "name": "O nome é obrigatório.",
+      "email_required": "O e-mail é obrigatório.",
+      "email_invalid": "O e-mail deve ter um formato válido.",
+      "mobile_phone": "O telefone celular é obrigatório.",
+      "origin_zipcode_required": "O CEP de origem é obrigatório.",
+      "origin_zipcode_regex": "O CEP de origem deve ter o formato 00000-000.",
+      "origin_street": "A rua de origem é obrigatória.",
+      "origin_district": "O bairro de origem é obrigatório.",
+      "origin_city": "A cidade de origem é obrigatória.",
+      "origin_state": "O estado de origem é obrigatório.",
+      "origin_type": "O tipo de imóvel de origem é obrigatório.",
+      "origin_elevator": "Informe se há elevador na origem quando for apartamento.",
+      "destination_zipcode_required": "O CEP de destino é obrigatório.",
+      "destination_zipcode_regex": "O CEP de destino deve ter o formato 00000-000.",
+      "destination_street": "A rua de destino é obrigatória.",
+      "destination_district": "O bairro de destino é obrigatório.",
+      "destination_city": "A cidade de destino é obrigatória.",
+      "destination_state": "O estado de destino é obrigatório.",
+      "destination_type": "O tipo de imóvel de destino é obrigatório.",
+      "destination_elevator": "Informe se há elevador no destino quando for apartamento."
+    }
+  },
+  "schema": {
+    "description": "Empresa especializada em mudanças residenciais e comerciais, transporte de equipamentos sensíveis e terceirização de mão de obra",
+    "area_served": "Brasil",
+    "services": [
+      "Mudanças Residenciais",
+      "Mudanças Comerciais",
+      "Transporte de Equipamentos",
+      "Armazenagem",
+      "Terceirização"
+    ]
+  },
+  "no_access": {
+    "page_title": "Acesso Restrito",
+    "heading": "Acesso Bloqueado",
+    "message": "Sua conta não tem permissão para acessar o painel administrativo ou foi desativada.",
+    "support_text": "Entre em contato com o",
+    "support_link": "suporte",
+    "logout_button": "Sair da Conta"
+  }
+}
