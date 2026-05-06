@@ -61,7 +61,7 @@ export function buildQuoteSchema(m: QuoteMessages) {
           .string()
           .trim()
           .min(1, isOrigin ? m.origin_street : m.destination_street),
-        number: z.string().optional().default(''),
+        number: z.string().nullable().optional(),
         district: z
           .string()
           .trim()
