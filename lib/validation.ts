@@ -55,21 +55,13 @@ export function buildQuoteSchema(m: QuoteMessages) {
         zipcode: z
           .string()
           .trim()
-          .min(
-            1,
-            isOrigin
-              ? m.origin_zipcode_required
-              : m.destination_zipcode_required,
-          )
-          .regex(
-            ZIP_REGEX,
-            isOrigin ? m.origin_zipcode_regex : m.destination_zipcode_regex,
-          ),
+          .min(1, isOrigin ? m.origin_zipcode_required : m.destination_zipcode_required)
+          .regex(ZIP_REGEX, isOrigin ? m.origin_zipcode_regex : m.destination_zipcode_regex),
         street: z
           .string()
           .trim()
           .min(1, isOrigin ? m.origin_street : m.destination_street),
-        number: z.string(),
+        number: z.string().optional().default(''),
         district: z
           .string()
           .trim()
@@ -85,11 +77,11 @@ export function buildQuoteSchema(m: QuoteMessages) {
         property_type: z.enum(['house', 'apartment'], {
           message: isOrigin ? m.origin_type : m.destination_type,
         }),
-        elevator: z.enum(['sim', 'nao']).optional(),
-        floor: z.string(),
+        elevator: z.string().default(''),
+        floor: z.string().default(''),
       })
       .superRefine((val, ctx) => {
-        if (val.property_type === 'apartment' && !val.elevator) {
+        if (val.property_type === 'apartment' && val.elevator !== 'sim' && val.elevator !== 'nao') {
           ctx.addIssue({
             code: z.ZodIssueCode.custom,
             path: ['elevator'],
@@ -100,15 +92,17 @@ export function buildQuoteSchema(m: QuoteMessages) {
   };
 
   return z.object({
-    type: z.enum(['residencial', 'comercial'], { message: m.type }),
+    type: z.enum(['residencial', 'comercial'], {
+      message: m.type,
+    }),
     name: z.string().trim().min(1, m.name),
-    residential_phone: z.string(),
-    commercial_phone: z.string(),
+    residential_phone: z.string().default(''),
+    commercial_phone: z.string().default(''),
     mobile_phone: z.string().trim().min(1, m.mobile_phone),
     email: z.string().trim().min(1, m.email_required).email(m.email_invalid),
     origin: addressBlock('origin'),
     destination: addressBlock('destination'),
-    observations: z.string(),
+    observations: z.string().default(''),
   });
 }
 

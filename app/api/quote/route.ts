@@ -17,6 +17,7 @@ export async function POST(request: Request) {
 
   const parsed = quoteServerSchema.safeParse(payload);
   if (!parsed.success) {
+    console.error('Quote validation failed:', JSON.stringify(parsed.error.issues, null, 2));
     return NextResponse.json(
       { error: 'validation_failed', issues: parsed.error.issues },
       { status: 422 },
@@ -34,7 +35,13 @@ export async function POST(request: Request) {
     await useCase.execute(parsed.data, adminAddress);
     return NextResponse.json({ ok: true });
   } catch (error) {
-    console.error('Error sending quote emails', error);
-    return NextResponse.json({ error: 'send_failed' }, { status: 502 });
+    console.error('Error sending quote emails:', error);
+    return NextResponse.json(
+      { 
+        error: 'send_failed', 
+        message: error instanceof Error ? error.message : String(error) 
+      }, 
+      { status: 502 }
+    );
   }
 }

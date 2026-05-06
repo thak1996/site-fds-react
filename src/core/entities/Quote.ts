@@ -1,11 +1,11 @@
 import type { Address } from './Address';
 
 export interface QuoteAddress extends Address {
-  number: string;
+  number?: string;
   zipcode: string;
   property_type: 'house' | 'apartment';
-  elevator?: 'sim' | 'nao';
-  floor: string;
+  elevator?: string | null;
+  floor?: string;
 }
 
 export interface Quote {

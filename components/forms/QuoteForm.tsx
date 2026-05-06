@@ -110,13 +110,16 @@ export function QuoteForm() {
       await useCase.execute(data);
       setShowSuccess(true);
       reset();
-    } catch {
+    } catch (error) {
+      console.error('Quote submission error:', error);
       setShowError(true);
     }
   };
 
-
-  const onInvalid = () => setShowError(true);
+  const onInvalid = (errors: any) => {
+    console.error('Form validation errors:', JSON.stringify(errors, null, 2));
+    setShowError(true);
+  };
 
   return (
     <FormProvider {...methods}>
@@ -305,12 +308,31 @@ export function QuoteForm() {
         title={tError('title')}
         message={tError('message')}
         details={
-          <>
+          <div className="text-left mt-2 max-h-40 overflow-y-auto">
             <strong>{tError('details_heading')}</strong>
-            <br />• {tError('details_l1')}
-            <br />• {tError('details_l2')}
-            <br />• {tError('details_l3')}
-          </>
+            {Object.keys(errors).length > 0 ? (
+              <ul className="list-disc list-inside mt-2 text-xs">
+                {Object.entries(errors).map(([key, value]: [string, any]) => (
+                  <li key={key}>
+                    <span className="font-semibold text-red-600 uppercase">{key}:</span> {value?.message || "Erro no campo"}
+                    {value && typeof value === 'object' && !value.message && (
+                       <ul className="pl-4 list-circle">
+                         {Object.entries(value).map(([subKey, subValue]: [string, any]) => (
+                           <li key={subKey}>{subKey}: {subValue?.message}</li>
+                         ))}
+                       </ul>
+                    )}
+                  </li>
+                ))}
+              </ul>
+            ) : (
+              <>
+                <br />• {tError('details_l1')}
+                <br />• {tError('details_l2')}
+                <br />• {tError('details_l3')}
+              </>
+            )}
+          </div>
         }
       />
     </FormProvider>

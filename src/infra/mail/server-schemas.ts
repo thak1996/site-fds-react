@@ -19,18 +19,18 @@ const addressServerSchema = z.object({
   city: z.string().trim().min(1),
   state: z.string().trim().min(1),
   property_type: z.enum(['house', 'apartment']),
-  elevator: z.enum(['sim', 'nao']).optional(),
-  floor: z.string().default(''),
+  elevator: z.string().optional().nullable(),
+  floor: z.string().optional().default(''),
 });
 
 export const quoteServerSchema = z.object({
   type: z.enum(['residencial', 'comercial']),
   name: z.string().trim().min(1).max(255),
-  residential_phone: z.string().default(''),
-  commercial_phone: z.string().default(''),
-  mobile_phone: z.string().trim().min(1).max(20),
+  residential_phone: z.string().optional().default(''),
+  commercial_phone: z.string().optional().default(''),
+  mobile_phone: z.string().trim().min(1).max(25),
   email: z.string().trim().email().max(255),
   origin: addressServerSchema,
   destination: addressServerSchema,
-  observations: z.string().default(''),
+  observations: z.string().optional().default(''),
 });
