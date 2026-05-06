@@ -77,8 +77,8 @@ export function buildQuoteSchema(m: QuoteMessages) {
         property_type: z.enum(['house', 'apartment'], {
           message: isOrigin ? m.origin_type : m.destination_type,
         }),
-        elevator: z.string().default(''),
-        floor: z.string().default(''),
+        elevator: z.preprocess((val) => val ?? '', z.string().default('')),
+        floor: z.preprocess((val) => val ?? '', z.string().default('')),
       })
       .superRefine((val, ctx) => {
         if (val.property_type === 'apartment' && val.elevator !== 'sim' && val.elevator !== 'nao') {
@@ -96,13 +96,13 @@ export function buildQuoteSchema(m: QuoteMessages) {
       message: m.type,
     }),
     name: z.string().trim().min(1, m.name),
-    residential_phone: z.string().default(''),
-    commercial_phone: z.string().default(''),
+    residential_phone: z.preprocess((val) => val ?? '', z.string().default('')),
+    commercial_phone: z.preprocess((val) => val ?? '', z.string().default('')),
     mobile_phone: z.string().trim().min(1, m.mobile_phone),
     email: z.string().trim().min(1, m.email_required).email(m.email_invalid),
     origin: addressBlock('origin'),
     destination: addressBlock('destination'),
-    observations: z.string().default(''),
+    observations: z.preprocess((val) => val ?? '', z.string().default('')),
   });
 }
 
