@@ -95,7 +95,7 @@
   },
   "contact_page": {
     "title": "Contato",
-    "subtitle": "Para entrar em contato, preencha o formulário abaixo ou envie sua mensagem para o email: <strong>contato@fdslogistica.com.br</strong>",
+    "subtitle": "Para entrar em contato, preencha o formulário abaixo ou envie sua mensagem para o email: <email>contato@fdslogistica.com.br</email>",
     "form_title": "Dados para contato",
     "fields": {
       "name": "Nome",

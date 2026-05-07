@@ -27,10 +27,18 @@ export default async function ContactPage({ params }: Props) {
             <h1 className="text-3xl md:text-4xl font-bold text-green-700 mb-8 text-center">
               {t('title')}
             </h1>
-            <p
-              className="text-gray-600 mb-6 text-center"
-              dangerouslySetInnerHTML={{ __html: t.raw('subtitle') as string }}
-            />
+            <p className="text-gray-600 mb-6 text-center">
+              {t.rich('subtitle', {
+                email: (chunks) => (
+                  <a
+                    href={`mailto:contato@fdslogistica.com.br?subject=${encodeURIComponent(t('mailto_subject'))}&body=${encodeURIComponent(t('mailto_body'))}`}
+                    className="text-blue-600 hover:underline transition font-semibold"
+                  >
+                    {chunks}
+                  </a>
+                ),
+              })}
+            </p>
             <ContactForm />
           </div>
 
@@ -53,7 +61,7 @@ export default async function ContactPage({ params }: Props) {
                 </h3>
                 <a
                   href={`mailto:contato@fdslogistica.com.br?subject=${encodeURIComponent(t('mailto_subject'))}&body=${encodeURIComponent(t('mailto_body'))}`}
-                  className="text-gray-600 hover:text-green-700 transition"
+                  className="text-blue-600 hover:underline transition font-semibold"
                 >
                   contato@fdslogistica.com.br
                 </a>

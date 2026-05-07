@@ -95,7 +95,7 @@
   },
   "contact_page": {
     "title": "Contact",
-    "subtitle": "To get in touch, fill out the form below or send your message to the email: <strong>contato@fdslogistica.com.br</strong>",
+    "subtitle": "To get in touch, fill out the form below or send your message to the email: <email>contato@fdslogistica.com.br</email>",
     "form_title": "Contact details",
     "fields": {
       "name": "Name",
