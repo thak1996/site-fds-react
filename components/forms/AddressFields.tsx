@@ -75,7 +75,7 @@ export function AddressFields({
 
 
   return (
-    <div className="bg-white p-6 rounded-lg shadow">
+    <div className="bg-white p-6 lg:p-8 rounded-lg shadow">
       <h3 className="text-xl font-bold text-gray-800 mb-4">{sectionTitle}</h3>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -204,7 +204,7 @@ export function AddressFields({
           <label className="block text-sm font-medium text-gray-700 mb-2">
             {t('property_type')} <span className="text-red-500">*</span>
           </label>
-          <div className="flex space-x-4 mb-4">
+          <div className="flex flex-wrap gap-4 mb-4">
             <label className="flex items-center">
               <input
                 type="radio"
@@ -236,7 +236,7 @@ export function AddressFields({
             }`}
           >
             <div>
-              <div className="flex space-x-4 items-center">
+              <div className="flex flex-wrap gap-4 items-center">
                 <span className="text-sm font-medium text-gray-700">
                   {t('elevator')} <span className="text-red-500">*</span>:
                 </span>

@@ -18,7 +18,7 @@ export default async function HomePage({ params }: Props) {
         }}
         className="py-10 md:py-16 flex-1"
       >
-        <div className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-8 max-w-6xl h-full">
+        <div className="container mx-auto px-4 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-8 lg:gap-16 max-w-6xl h-full">
           <div className="flex-1 text-center md:text-left">
             <h1 className="text-4xl md:text-5xl font-extrabold text-blue-800 mb-4">
               {t('hero_title')}
@@ -40,6 +40,7 @@ export default async function HomePage({ params }: Props) {
               width={600}
               height={400}
               unoptimized
+              priority
               className="rounded-lg shadow-lg w-full max-w-md h-auto"
             />
           </div>

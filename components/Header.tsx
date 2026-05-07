@@ -1,7 +1,6 @@
 'use client';
 
 import { useState } from 'react';
-import Image from 'next/image';
 import { useLocale, useTranslations } from 'next-intl';
 import { Link, usePathname } from '@/i18n/navigation';
 import { LanguageSwitcher } from './LanguageSwitcher';
@@ -30,22 +29,18 @@ export function Header() {
   return (
     <header className="bg-white shadow sticky top-0 z-50">
       <div className="container mx-auto px-4 py-4 flex flex-row items-center justify-between md:flex-row md:items-center md:space-x-6">
-        <Link href="/" className="flex items-center space-x-4 transition hover:opacity-80">
-          <Image
+        <Link href="/" className="flex items-center space-x-4 transition hover:opacity-80 shrink-0">
+          <img
             src="https://i.imgur.com/eP2y6gB.jpeg"
             alt="Logo FDS"
-            width={48}
-            height={48}
-            className="h-12 w-auto"
-            priority
-            unoptimized
+            className="h-10 md:h-12 lg:h-14 w-auto object-contain"
           />
-          <span className="text-2xl font-bold text-black tracking-tight">
+          <span className="text-base md:text-xl lg:text-2xl font-bold text-black tracking-tight">
             FDS Logística e Terceirização
           </span>
         </Link>
 
-        <nav className="hidden md:flex items-center space-x-6">
+        <nav className="hidden lg:flex items-center space-x-6">
           <ul className="flex space-x-6 text-base font-semibold text-green-700">
             {NAV_ITEMS.map((item) => (
               <li key={item.href}>
@@ -65,7 +60,7 @@ export function Header() {
 
         <button
           onClick={() => setIsOpen((v) => !v)}
-          className="md:hidden text-green-700 focus:outline-none"
+          className="lg:hidden text-green-700 focus:outline-none"
           aria-label="Abrir menu"
           aria-expanded={isOpen}
         >
@@ -96,7 +91,7 @@ export function Header() {
 
       <nav
         aria-label="Menu de navegação"
-        className={`md:hidden fixed top-0 right-0 w-2/5 h-full bg-white transition-transform duration-300 z-50 rounded-l-lg ${
+        className={`lg:hidden fixed top-0 right-0 w-3/4 max-w-sm h-full bg-white transition-transform duration-300 z-50 rounded-l-lg ${
           isOpen ? 'translate-x-0' : 'translate-x-full'
         }`}
       >

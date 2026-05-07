@@ -129,7 +129,7 @@ export function QuoteForm() {
         noValidate
       >
         {/* Bloco de contato */}
-        <div className="bg-white p-6 rounded-lg shadow">
+        <div className="bg-white p-6 lg:p-8 rounded-lg shadow">
           <h3 className="text-xl font-bold text-gray-800 mb-4">
             {tSections('contact')}
           </h3>
@@ -139,7 +139,7 @@ export function QuoteForm() {
               <label className="block text-sm font-medium text-gray-700 mb-2">
                 {tFields('type')} <span className="text-red-500">*</span>
               </label>
-              <div className="flex space-x-4">
+              <div className="flex flex-wrap gap-4">
                 <label className="flex items-center">
                   <input
                     type="radio"
@@ -258,7 +258,7 @@ export function QuoteForm() {
         />
 
         {/* Observações */}
-        <div className="bg-white p-6 rounded-lg shadow">
+        <div className="bg-white p-6 lg:p-8 rounded-lg shadow">
           <label
             htmlFor="observations"
             className="block text-sm font-medium text-gray-700 mb-2"
